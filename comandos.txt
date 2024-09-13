@@ -1,0 +1,35 @@
+AGREGAR CAMBIOS Y ARCHIVOS
+git add -A
+
+CREAR UNA RAMA
+git branch "nombre de la rama"
+
+CREAR RAMA EN LOCAL PARA ENVIAR A REMOTO
+git branch origin "nombre de rama local"
+
+BORRAR RAMA
+git branch -d "nombre-de-la-rama"
+
+CAMBIAR DE UNA RAMA A OTRA
+git checkout "nombre de rama"
+
+INFORMACION SOBRE LA RAMA ACTUAL
+git status 
+
+PUNTO DE DESARROLLO LOCAL
+git commit -m "mensaje de confirmación"
+
+CONFIRMAR CAMBIOS A REMOTO
+git push origin "nombre de rama"
+
+RECIBIR ACTUALIZACIONES DEL REPOSITORIO
+git pull origin 
+
+LOG DE RAMA - salir shift + q
+git log
+
+ACTUALIZAR RAMA PRINCIPAL - IMPORTANTE ESTAR EN LA RAMA
+git fetch
+
+FUSIONAR A LA RAMA PRINCIPAL
+git merge "nombre de la rama"
